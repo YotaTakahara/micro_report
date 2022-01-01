@@ -4,8 +4,8 @@ INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/eptex/platex.fmt
-INPUT /home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex
-OUTPUT out/sample.log
+INPUT /home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/03210499.tex
+OUTPUT out/03210499.log
 INPUT /usr/share/texlive/texmf-dist/tex/platex/base/jreport.cls
 INPUT /usr/share/texlive/texmf-dist/tex/platex/base/jreport.cls
 INPUT /usr/share/texlive/texmf-dist/tex/platex/base/jsize12.clo
@@ -28,9 +28,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/here/here.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/here/here.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-INPUT out/sample.aux
-INPUT out/sample.aux
-OUTPUT out/sample.aux
+INPUT out/03210499.aux
+INPUT out/03210499.aux
+OUTPUT out/03210499.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
@@ -44,7 +44,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-OUTPUT out/sample.dvi
+OUTPUT out/03210499.dvi
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -70,4 +70,4 @@ INPUT picture/deco.png
 INPUT extractbb -B cropbox -O picture/deco.png
 INPUT picture/deco2.png
 INPUT extractbb -B cropbox -O picture/deco2.png
-INPUT out/sample.aux
+INPUT out/03210499.aux

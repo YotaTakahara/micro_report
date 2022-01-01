@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1641041860 "out/sample.dvi" "out/sample.pdf" "out/sample" 1641041861
-  "out/sample.dvi" 1641041860 11736 0399cadddb05429f712ea302ae6e0c60 "latex"
+["dvipdf"] 1641041991 "out/03210499.dvi" "out/03210499.pdf" "out/03210499" 1641041991
+  "out/03210499.dvi" 1641041991 11736 b7cd1121b079002468121723d5c5e5d9 "latex"
   (generated)
-  "out/sample.pdf"
-["latex"] 1641041859 "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex" "out/sample.dvi" "sample" 1641041861
+  "out/03210499.pdf"
+["latex"] 1641041990 "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/03210499.tex" "out/03210499.dvi" "03210499" 1641041991
   "/etc/texmf/web2c/texmf.cnf" 1641007362 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex" 1641041858 8241 ba3cfc87d57afb7ed90fcae94ce794f0 ""
+  "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/03210499.tex" 1641041979 8241 ba3cfc87d57afb7ed90fcae94ce794f0 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1480098698 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1480098698 1196 1be730212205a270378fba11a44765dc ""
@@ -37,6 +37,7 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/web2c/eptex/platex.fmt" 1641007455 4362999 a163858c02af7b8254768fd55bbd9825 ""
+  "03210499.tex" 1641041979 8241 ba3cfc87d57afb7ed90fcae94ce794f0 ""
   "extractbb -B cropbox -O picture/cpu.png" 0 -1 0 ""
   "extractbb -B cropbox -O picture/cri.png" 0 -1 0 ""
   "extractbb -B cropbox -O picture/deco.png" 0 -1 0 ""
@@ -44,7 +45,7 @@
   "extractbb -B cropbox -O picture/lut1.png" 0 -1 0 ""
   "extractbb -B cropbox -O picture/lut2.png" 0 -1 0 ""
   "extractbb -B cropbox -O picture/score.png" 0 -1 0 ""
-  "out/sample.aux" 1641041860 1198 1b3cca459b3c8cf84319814c371ea873 ""
+  "out/03210499.aux" 1641041991 1198 1b3cca459b3c8cf84319814c371ea873 ""
   "picture/cpu.png" 1641030156 24667 18d0a64608651b6c9e83ebd3ca31d1ce ""
   "picture/cri.png" 1641031386 207133 8ac1142f460a325ae41bc8a6ae666365 ""
   "picture/deco.png" 1641037012 187469 bf82c91476a314280dcdc42e7d0113b5 ""
@@ -52,8 +53,7 @@
   "picture/lut1.png" 1641033025 7452 1ec89fa1e4dd976ef682499ffc3f9605 ""
   "picture/lut2.png" 1641033025 7523 132daa08914e5e202c17f3d8b0c4dfce ""
   "picture/score.png" 1641030156 88026 3cb12b45c49efc6c4a571a37973e4cbf ""
-  "sample.tex" 1641041858 8241 ba3cfc87d57afb7ed90fcae94ce794f0 ""
   (generated)
-  "out/sample.dvi"
-  "out/sample.aux"
-  "out/sample.log"
+  "out/03210499.log"
+  "out/03210499.aux"
+  "out/03210499.dvi"

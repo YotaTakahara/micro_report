@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2022.1.1)  1 JAN 2022 21:57
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2022.1.1)  1 JAN 2022 21:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex
-(/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex
+**/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/03210499.tex
+(/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/03210499.tex
 pLaTeX2e <2017/10/28>+4 (based on LaTeX2e <2017-04-15>)
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/platex/base/jreport.cls
@@ -56,8 +56,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box42
 \@float@everytoks=\toks17
 \@floatcapt=\box43
-) (out/sample.aux)
-\openout1 = `sample.aux'.
+) (out/03210499.aux)
+\openout1 = `03210499.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -116,14 +116,14 @@ Overfull \hbox (151.40881pt too wide) in paragraph at lines 124--134
 [][] [] 
  []
 
-[4] [5] [6] (out/sample.aux) ) 
+[4] [5] [6] (out/03210499.aux) ) 
 Here is how much of TeX's memory you used:
  789 strings out of 493640
- 9923 string characters out of 6150529
+ 9941 string characters out of 6150529
  69369 words of memory out of 5000000
  4421 multiletter control sequences out of 15000+600000
  14465 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,7n,21p,260b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,7n,21p,262b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/sample.dvi (7 pages, 11736 bytes).
+Output written on out/03210499.dvi (7 pages, 11736 bytes).

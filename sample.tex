@@ -1,17 +1,18 @@
 \documentclass[12pt]{jreport}
 \usepackage[dvipdfmx]{graphicx}
+\usepackage{here}
 \title{後期実験：マイクロプロセッサの設計と実装}
 \author{電気電子工学科3年\\03210499\\高原陽太}
-\date{\today}
+
 \begin{document}
   \maketitle
-  はじめに
+  \section{はじめに}
 
   今回のマイクロプロセッサ実験を通して、設計から実装まで自力で行った。
   そこで今回のレポートに関しては、基本課題と応用課題に取り組むに当たって工夫した点、
   苦労した点のそれぞれについて記述して行きたいと思う。
   
-  基本的なcpuの設計
+  \section{基本的なcpuの設計}
 
   まず実験1-8日目は基本的なcpuの設計と実装を行った。構造は
   wikiの資料を参考にして作成した。
@@ -20,11 +21,16 @@
   指定をするための4bitのフラグを指定するためのモジュールを事前に作成したこと
   である。図1のstoreモジュールに対応している。このモジュールを作ったことにより
   データメモリへの書き込みに必要な作業を分担することができた。
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{picture/cpu.png}
+    \caption{cpuの図}
+  \end{figure}
 
-
-  [実験結果]\\
+  
+  \section{実験結果}
   実装した結果は以下の通りである。
-  \begin{figure}
+  \begin{figure}[htbp]
     \centering
     \includegraphics[width=8cm]{picture/score.png}
     \caption{最終的なCoreMarkのスコア}
@@ -36,7 +42,7 @@
   クリティカルパスなどを考慮し、動作周波数を$30MHz$として
   動かした際の実行結果である。
 
-  [苦労した点]\\
+  \section{苦労した点}
   cpuを作る上で苦労した点は以下の通りである。\\
   ・ロードストア命令におけるメモリ番地の指定\\
   ・クロックの扱い\\ 
@@ -60,7 +66,7 @@
   具体的には命令メモリの読み出しをクロックの立ち上がりで行い、データメモリに関する読み出し書き込みは
   クロックの立ち下がりで行うようにした。
 
-  [発展課題]\\
+  \section{発展課題}
   ・RV32Mへの対応\\
   ・クリティカルパスの短縮\\
   ・function文による記述\\
@@ -74,18 +80,38 @@
   延長であった。乗算器が非常に遅いためそれによって今まで動いていた動作周波数で稼働しなくなってしまった。
   そのため遅延しても稼働するようにクリティカルパスの短縮とfunction文による記述という
   工夫を行った。
-  \begin{figure}
-    \centering
-    \includegraphics[width=5cm]{picture/lut1.png}
-    \caption{最初の消費資源量}
-    \includegraphics[width=5cm]{picture/lut2.png}
-    \caption{RV32M後の消費資源量}
+  % \begin{figure}[H]
+  %   \centering
+  %   \includegraphics[width=5cm]{picture/lut1.png}
+  %   \caption{最初の消費資源量}
+  %   \includegraphics[width=5cm]{picture/lut2.png}
+  %   \caption{RV32M後の消費資源量}
+  % \end{figure}
+
+  \begin{figure}[H]
+    \begin{minipage}[b]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.8]{picture/lut1.png}
+      \caption{最初の消費資源量}
+    \end{minipage}
+    \begin{minipage}[b]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.8]{picture/lut2.png}
+      \caption{RV32M後の消費資源量}
+    \end{minipage}
   \end{figure}
   
   また乗算器除算器を取り入れたことにより消費資源量も増えてしまった。これも
   回路のコードに余分な箇所、重複している箇所があることに起因していると考えた。
 
-  下図がクリティカルパスである。大まかに見ると図のcpuの赤線部分のような
+  下図がクリティカルパスである。
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{picture/cri.png}
+    \caption{クリティカルパス}
+  \end{figure}
+
+  大まかに見ると図のcpuの赤線部分のような
   経路がクリティカルパスになっていることが分かる。データメモリから読み出してくる
   ロード命令が一番遅いと考えた。そこでできるだけデータメモリに関する処理を簡単にすることを考えた。
   考えたのがfunction文による記述である。自分のコードを見返す限り、データメモリだけでなくdecoderやalu
@@ -93,13 +119,20 @@
   ではないかと考えた。\\
   　実際にfunction文で記述し直したところ、decoderとaluに関しては
   記述量を半分以下にまで減らすことができた。\\
-  \begin{figure}
-    \centering
-    \includegraphics[width=5cm]{picture/deco.png}
-    \caption{当初のdecoderのコード}
-    \includegraphics[width=7cm]{picture/deco2.png}
-    \caption{簡略化したdecoderのコードs}
+  
+  \begin{figure}[H]
+    \begin{minipage}[b]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.5]{picture/deco.png}
+      \caption{当初のdecoderのコード}
+    \end{minipage}
+    \begin{minipage}[b]{0.95\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.5]{picture/deco2.png}
+      \caption{簡略化したdecoderのコード}
+    \end{minipage}
   \end{figure}
+  
   
   しかしregとして存在しているメモリを参照する
   必要があるデータメモリをfunction文で書くことができなかった。function文
@@ -108,23 +141,20 @@
   データメモリに関しては上記のようにストアのフラグを立てる箇所を分離するなどして
   できるだけ処理を減らすことでクリティカルパスの短縮を試みた。
   
+  
+  \section{今後の展望}
+  単にfunction文でモジュールを簡略化させるだけでは効果が得られない箇所も
+  あるので、回路の演算を共通化させるなどしてより無駄のないコードを書くことと
+  クリティカルパスの短縮のため、より機能を細分化してクリティカルパスに関連する
+  モジュールを分割するなどをしてより高い周波数に対応できるようにしたい。
+
+  
 
 
 
-  \begin{figure}
-    \centering
-    \includegraphics[width=10cm]{picture/cri.png}
-    \caption{クリティカルパス}
-  \end{figure}
 
+ 
 
-
-
-
-  \begin{figure}
-    \centering
-    \includegraphics[width=8cm]{picture/cpu.png}
-    \caption{cpuの図}
-  \end{figure}
+  
   
 \end{document}

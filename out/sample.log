@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2022.1.1)  1 JAN 2022 20:38
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2022.1.1)  1 JAN 2022 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -49,60 +49,81 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
+) (/usr/share/texlive/texmf-dist/tex/latex/here/here.sty) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count93
+\float@exts=\toks16
+\float@box=\box42
+\@float@everytoks=\toks17
+\@floatcapt=\box43
 ) (out/sample.aux)
 \openout1 = `sample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 7.
+(Font)              <17.28> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 7.
+(Font)              <12> on input line 8.
 [1
 
 ]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 9.
+File: picture/cpu.png Graphic file (type bmp)
+<picture/cpu.png>
 File: picture/score.png Graphic file (type bmp)
 <picture/score.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
+(Font)              <8> on input line 40.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
-[1]
+(Font)              <6> on input line 40.
+[1] [2]
 File: picture/lut1.png Graphic file (type bmp)
 <picture/lut1.png>
 File: picture/lut2.png Graphic file (type bmp)
 <picture/lut2.png>
-[2]
-File: picture/deco.png Graphic file (type bmp)
-<picture/deco.png>
-File: picture/deco2.png Graphic file (type bmp)
-<picture/deco2.png>
+[3]
 File: picture/cri.png Graphic file (type bmp)
 <picture/cri.png>
-File: picture/cpu.png Graphic file (type bmp)
-<picture/cpu.png>
-[3] [4] [5] [6] (out/sample.aux) ) 
-Here is how much of TeX's memory you used:
- 716 strings out of 493640
- 8866 string characters out of 6150529
- 68261 words of memory out of 5000000
- 4357 multiletter control sequences out of 15000+600000
- 13695 words of font info for 53 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 25i,7n,21p,291b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
+File: picture/deco.png Graphic file (type bmp)
+<picture/deco.png>
 
-Output written on out/sample.dvi (7 pages, 10868 bytes).
+Overfull \hbox (42.88675pt too wide) in paragraph at lines 126--127
+ [][] 
+ []
+
+File: picture/deco2.png Graphic file (type bmp)
+<picture/deco2.png>
+
+Overfull \hbox (151.40881pt too wide) in paragraph at lines 124--134
+[][] [] 
+ []
+
+[4] [5] [6] (out/sample.aux) ) 
+Here is how much of TeX's memory you used:
+ 789 strings out of 493640
+ 9923 string characters out of 6150529
+ 69369 words of memory out of 5000000
+ 4421 multiletter control sequences out of 15000+600000
+ 14465 words of font info for 56 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,7n,21p,260b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/sample.dvi (7 pages, 11736 bytes).

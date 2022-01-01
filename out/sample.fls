@@ -24,6 +24,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT out/sample.aux
 INPUT out/sample.aux
 OUTPUT out/sample.aux
@@ -41,6 +45,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 OUTPUT out/sample.dvi
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT picture/cpu.png
+INPUT extractbb -B cropbox -O picture/cpu.png
 INPUT picture/score.png
 INPUT extractbb -B cropbox -O picture/score.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -55,12 +64,10 @@ INPUT picture/lut1.png
 INPUT extractbb -B cropbox -O picture/lut1.png
 INPUT picture/lut2.png
 INPUT extractbb -B cropbox -O picture/lut2.png
+INPUT picture/cri.png
+INPUT extractbb -B cropbox -O picture/cri.png
 INPUT picture/deco.png
 INPUT extractbb -B cropbox -O picture/deco.png
 INPUT picture/deco2.png
 INPUT extractbb -B cropbox -O picture/deco2.png
-INPUT picture/cri.png
-INPUT extractbb -B cropbox -O picture/cri.png
-INPUT picture/cpu.png
-INPUT extractbb -B cropbox -O picture/cpu.png
 INPUT out/sample.aux

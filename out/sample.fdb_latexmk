@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1641037135 "out/sample.dvi" "out/sample.pdf" "out/sample" 1641037136
+["dvipdf"] 1641037135 "out/sample.dvi" "out/sample.pdf" "out/sample" 1641039210
   "out/sample.dvi" 1641037135 10868 7659004e881a49c0c4a1ea8d5243ee3f "latex"
   (generated)
   "out/sample.pdf"
-["latex"] 1641037134 "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex" "out/sample.dvi" "sample" 1641037136
+["latex"] 1641037134 "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex" "out/sample.dvi" "sample" 1641039210
   "/etc/texmf/web2c/texmf.cnf" 1641007362 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex" 1641037133 7083 df1299841497d1f179943a8aa1b3a762 ""
+  "/home/denjo/work/hattenkadai/hattenkadai.srcs/sources_1/new/sample.tex" 1641039210 7083 df1299841497d1f179943a8aa1b3a762 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1480098698 1196 1be730212205a270378fba11a44765dc ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm" 1480098698 1196 ede67ffb8cb4a6a8b9436c82b428664c ""
@@ -47,8 +47,8 @@
   "picture/lut1.png" 1641033025 7452 1ec89fa1e4dd976ef682499ffc3f9605 ""
   "picture/lut2.png" 1641033025 7523 132daa08914e5e202c17f3d8b0c4dfce ""
   "picture/score.png" 1641030156 88026 3cb12b45c49efc6c4a571a37973e4cbf ""
-  "sample.tex" 1641037133 7083 df1299841497d1f179943a8aa1b3a762 ""
+  "sample.tex" 1641039210 7083 df1299841497d1f179943a8aa1b3a762 ""
   (generated)
-  "out/sample.aux"
   "out/sample.dvi"
+  "out/sample.aux"
   "out/sample.log"
